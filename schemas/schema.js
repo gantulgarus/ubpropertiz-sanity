@@ -115,6 +115,11 @@ export default createSchema({
           to: [{ type: "location" }],
         },
         {
+          title: "Хаяг",
+          name: "address",
+          type: "geopoint",
+        },
+        {
           title: "Зургийн цомог",
           name: "imagesGallery",
           type: "array",
